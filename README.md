@@ -4,7 +4,7 @@ Der 3D Drucker im **Hacklab Bern**, basiert auf dem [CL-260 open-source model](h
 
 ## Bestandteile
 
-| Teil |     | Alternativen |
+| Funktionalität | Verwendete Lösung | Alternativen |
 | ---- | --- | --- |
 | Firmware | [Marlin](https://github.com/MarlinFirmware/Marlin) | [Repetier](https://www.repetier.com/download-software) |
 | Mikrocontroller            | [Arduino Mega 2560](https://www.3dware.ch/Iduino-MEGA2560-De.htm) |
