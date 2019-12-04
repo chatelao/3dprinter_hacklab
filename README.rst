@@ -45,7 +45,7 @@ Bestandteile
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
 
 .. image:: ramps_14/Rampswire14.svg
-   :scale: 50 %
+   :scale: 35 %
 
 .. _Marlin: https://github.com/MarlinFirmware/Marlin
 .. _Repetier: https://www.repetier.com/download-software
