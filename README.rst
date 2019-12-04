@@ -7,7 +7,7 @@ Empfohlene Einstellungen
 ========================
 
 +--------------------+------------------+
-| Enstellung         | Empfohlener Wert |
+|     Enstellung     | Empfohlener Wert |
 +====================+==================+
 | Drucker Art        | FFF              |
 +--------------------+------------------+
@@ -15,39 +15,41 @@ Empfohlene Einstellungen
 +--------------------+------------------+
 | PLA Temperatur     | 210°C            |
 +--------------------+------------------+
-| Hot bed Temperatur |  55°C            |
+| Hot bed Temperatur | 55°C             |
 +--------------------+------------------+
 
 Bestandteile
 ============
 
-+----------------+------------------------------------------------------------------+--------------------------------------------------------+
-| Funktionalität | Verwendete Lösung                                                | Alternativen                                           |
-+================+==================================================================+========================================================+
-| Firmware       | Marlin_                                                          | Repetier_                                              |
-+----------------+------------------------------------------------------------------+--------------------------------------------------------+
-| Mikrocontroller            | [Arduino Mega 2560](https://www.3dware.ch/Iduino-MEGA2560-De.htm) |
-+----------------+-------------------+--------------+
-| Leistungselektronik Shield | [RepRap Arduino Mega Pololu Shield (RAMPS) 1.4](https://reprap.org/wiki/RAMPS_1.4) |
-+----------------+-------------------+--------------+
-| Verstärker Schrittmotoren  | [A4988 Datasheet](https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx) |
-+----------------+-------------------+--------------+
-| Display Platine     | ?   |
-+----------------+-------------------+--------------+
-| Heat Bed            | https://reprap.org/wiki/RAMPS_1.4    |
-+----------------+-------------------+--------------+
-| Hot End             | Hotend: e3d v6 |
-+----------------+-------------------+--------------+
-| Nozzle | 0.4mm |
-+----------------+-------------------+--------------+
-| Schrittmotoren      |     |
-+----------------+-------------------+--------------+
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+|       Funktionalität       |                                       Verwendete Lösung                                       | Alternativen |
++============================+===============================================================================================+==============+
+| Firmware                   | Marlin_                                                                                       | Repetier_    |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Mikrocontroller            | `Arduino Mega 2560`<https://www.3dware.ch/Iduino-MEGA2560-De.htm>_                            |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Leistungselektronik Shield | [RepRap Arduino Mega Pololu Shield (RAMPS) 1.4](https://reprap.org/wiki/RAMPS_1.4)            |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Verstärker Schrittmotoren  | [A4988 Datasheet](https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx) |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Display Platine            | ?                                                                                             |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Heat Bed                   | https://reprap.org/wiki/RAMPS_1.4                                                             |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Hot End                    | Hotend: e3d v6                                                                                |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Nozzle                     | 0.4mm                                                                                         |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
+| Schrittmotoren             |                                                                                               |              |
++----------------------------+-----------------------------------------------------------------------------------------------+--------------+
 
+.. image:: ramps_14/Rampswire14.svg
 
 .. _Marlin: https://github.com/MarlinFirmware/Marlin
 .. _Repetier: https://www.repetier.com/download-software
 
-### Calibration patterns
+Calibration patterns
+====================
 
 Zur Prüfung der Ausrichtung des Heizbetts eignen sich dieses speziellen Quadratmuster. Es erlaubt die Prüfung
 der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
@@ -58,11 +60,13 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 
 ![Calibration Patterns](calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg)
 
-### Bessere Z-Axis Distanzeinhaltung
+Bessere Z-Axis Distanzeinhaltung
+================================
 
 Nur eine präzises Startdistanz zum Heizbett erlaubt präzise erste Schichten.
 
-#### Verbesserte Stopp Schalter Führung
+Verbesserte Stopp Schalter Führung
+----------------------------------
 
 Der End-Stops soll den Schalter wiederholbar zum gleichen Zeitpunkt auslösen. Der Würfel erlaubt
 grössere Toleranzen zum Treffen des Schalters.
@@ -71,9 +75,10 @@ Quelle:
 - https://www.thingiverse.com/thing:2851658
 - STL: [z_axis_sensor_print](z_axis_sensor_print)
 
-![Z-Axis Endstop](z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg)
+.. image:: z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
 
-#### Abstandsensoren
+Induktive Abstandsensoren am Druckkopf
+--------------------------------------
 
 Bed Auto Leveling
 - https://youtu.be/G-TwWfUzXpc
