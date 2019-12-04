@@ -85,6 +85,7 @@ Quelle:
 - STL: [z_axis_sensor_print](z_axis_sensor_print)
 
 .. image:: z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
+   :scale: 35 %
 
 Induktive Abstandsensoren am Druckkopf
 --------------------------------------
