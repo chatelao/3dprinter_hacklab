@@ -3,22 +3,21 @@ Our 3D printer in the Hacklab Bern, based on the [CL-260 open-source model](http
 
 ## Bestandteile
 
-| Teil |     |
-| ---- | --- |
-| Firmware | [Marlin](https://github.com/MarlinFirmware/Marlin) |
+| Teil |     | Alternativen |
+| ---- | --- | --- |
+| Firmware | [Marlin](https://github.com/MarlinFirmware/Marlin) | [Repetier](https://www.repetier.com/download-software) |
 | Mikrocontroller            | [Arduino Mega 2560](https://www.3dware.ch/Iduino-MEGA2560-De.htm) |
 | Leistungselektronik Shield | [RepRap Arduino Mega Pololu Shield (RAMPS) 1.4](https://reprap.org/wiki/RAMPS_1.4) |
 | Verstärker Schrittmotoren  | [A4988 Datasheet](https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx) |
-
-| Display Platine     | https://reprap.org/wiki/RAMPS_1.4    |
+| Display Platine     | ?   |
 | Heat Bed            | https://reprap.org/wiki/RAMPS_1.4    |
-| Hot End             | https://reprap.org/wiki/RAMPS_1.4    |
-| Schrittmotoren      | https://reprap.org/wiki/RAMPS_1.4    |
+| Hot End             | Hotend: e3d v6 |
+| Schrittmotoren      |     |
 
 ## Firmware
 
 - 
-- https://www.repetier.com/download-software/
+- 
 
 ### Calibration patterns
 
