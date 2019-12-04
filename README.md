@@ -1,5 +1,6 @@
-# 3dprinter_hacklab
-Our 3D printer in the Hacklab Bern, based on the [CL-260 open-source model](https://www.thingiverse.com/minicooper/collections/cl-260).
+# 3d Printer im Hacklab Bern
+
+Unser 3D printer im Hacklab Bern, basiert auf dem [CL-260 open-source model](https://www.thingiverse.com/minicooper/collections/cl-260).
 
 ## Bestandteile
 
