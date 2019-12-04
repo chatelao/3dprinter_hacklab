@@ -1,5 +1,22 @@
 # 3dprinter_hacklab
-Our 3D printer in the Hacklab Bern
+Our 3D printer in the Hacklab Bern, based on the [CL-260 open-source model](https://www.thingiverse.com/minicooper/collections/cl-260).
+
+## Bestandteile
+
+| Teil |     |
+| ---- | --- |
+| Mikrocontroller            | https://www.3dware.ch/Iduino-MEGA2560-De.htm    |
+| Leistungselektronik Shield | https://reprap.org/wiki/RAMPS_1.4    |
+| Verstärker Schrittmotoren  | https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx |
+
+| Display Platine     | https://reprap.org/wiki/RAMPS_1.4    |
+| Heat Bed            | https://reprap.org/wiki/RAMPS_1.4    |
+| Hot End             | https://reprap.org/wiki/RAMPS_1.4    |
+| Schrittmotoren      | https://reprap.org/wiki/RAMPS_1.4    |
+
+(Mutmassliche) Hardware für Schrittmotoren: A4988
+
+
 
 ## Firmware
 
