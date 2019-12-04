@@ -13,6 +13,7 @@ Der 3D Drucker im **Hacklab Bern**, basiert auf dem CL-260 open-source model[hie
 | Display Platine     | ?   |
 | Heat Bed            | https://reprap.org/wiki/RAMPS_1.4    |
 | Hot End             | Hotend: e3d v6 |
+| Nozzle | 0.4mm |
 | Schrittmotoren      |     |
 
 ### Calibration patterns
