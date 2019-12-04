@@ -1,6 +1,6 @@
 # Unser 3D Drucker im Hacklab Bern
 
-Der 3D Drucker im **Hacklab Bern**, basiert auf dem [CL-260 open-source model](https://www.thingiverse.com/minicooper/collections/cl-260). Er wird abwechslungsweise von Mitgliedern genutzt und verbessert, die dies wünschen.
+Der 3D Drucker im **Hacklab Bern**, basiert auf dem CL-260 open-source model[hier](https://www.thingiverse.com/minicooper/collections/cl-260) und [hier](https://www.thingiverse.com/groups/cl-260/things). Er wird abwechslungsweise von Mitgliedern genutzt und verbessert, die dies wünschen.
 
 ## Bestandteile
 
