@@ -67,8 +67,8 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 - STL: `calibration_patterns <calibration_patterns>`_
 
 .. image:: calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
-   :scale: 50 %
-
+   :width: 500 px
+   
 Bessere Z-Axis Distanzeinhaltung
 ================================
 
