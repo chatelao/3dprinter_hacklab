@@ -26,16 +26,24 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 
 ![Calibration Patterns](calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg)
 
-### Bessere Z-Axis End-Stops
+### Bessere Z-Axis Distanzeinhaltung
 
-![Z-Axis Endstop](z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg)
+Nur eine präzises Startdistanz zum Heizbett erlaubt präzise erste Schichten.
+
+#### Verbesserte Stopp Schalter Führung
+
+Der End-Stops soll den Schalter wiederholbar zum gleichen Zeitpunkt auslösen. Der Würfel erlaubt
+grössere Toleranzen zum Treffen des Schalters.
 
 Quelle:
 - https://www.thingiverse.com/thing:2851658
 - STL: [z_axis_sensor_print](z_axis_sensor_print)
 
-### Auto bed level sensoren
+![Z-Axis Endstop](z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg)
+
+#### Abstandsensoren
 
 Bed Auto Leveling
 - https://youtu.be/G-TwWfUzXpc
 - Sensor: https://de.aliexpress.com/item/32568347298.html 
+
