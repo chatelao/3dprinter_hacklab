@@ -1,29 +1,51 @@
-# Unser 3D Drucker im Hacklab Bern
+Unser 3D Drucker im Hacklab Bern
+################################
 
 Der 3D Drucker im **Hacklab Bern**, basiert auf dem CL-260 open-source model[hier](https://www.thingiverse.com/minicooper/collections/cl-260) und [hier](https://www.thingiverse.com/groups/cl-260/things). Er wird abwechslungsweise von Mitgliedern genutzt und verbessert, die dies wünschen.
 
-## Empfohlene Einstellungen
+Empfohlene Einstellungen
+========================
 
-| Enstellung | Empfohlener Wert |
-| ---- | --- |
-| Drucker Art | FFF |
-| Druckauflösung | 0.15mm |
-| PLA Temperatur | 210°C |
-| Hot bed Temperatur | 55°C |
++--------------------+------------------+
+| Enstellung         | Empfohlener Wert |
++====================+==================+
+| Drucker Art        | FFF              |
++--------------------+------------------+
+| Druckauflösung     | 0.15mm           |
++--------------------+------------------+
+| PLA Temperatur     | 210°C            |
++--------------------+------------------+
+| Hot bed Temperatur |  55°C            |
++--------------------+------------------+
 
-## Bestandteile
+Bestandteile
+============
 
-| Funktionalität | Verwendete Lösung | Alternativen |
-| ---- | --- | --- |
-| Firmware | [Marlin](https://github.com/MarlinFirmware/Marlin) | [Repetier](https://www.repetier.com/download-software) |
++----------------+------------------------------------------------------------------+--------------------------------------------------------+
+| Funktionalität | Verwendete Lösung                                                | Alternativen                                           |
++================+==================================================================+========================================================+
+| Firmware       | Marlin_                                                          | Repetier_                                              |
++----------------+------------------------------------------------------------------+--------------------------------------------------------+
+
+.. _Marlin: https://github.com/MarlinFirmware/Marlin
+.. _Repetier: https://www.repetier.com/download-software
+
 | Mikrocontroller            | [Arduino Mega 2560](https://www.3dware.ch/Iduino-MEGA2560-De.htm) |
++----------------+-------------------+--------------+
 | Leistungselektronik Shield | [RepRap Arduino Mega Pololu Shield (RAMPS) 1.4](https://reprap.org/wiki/RAMPS_1.4) |
++----------------+-------------------+--------------+
 | Verstärker Schrittmotoren  | [A4988 Datasheet](https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx) |
++----------------+-------------------+--------------+
 | Display Platine     | ?   |
++----------------+-------------------+--------------+
 | Heat Bed            | https://reprap.org/wiki/RAMPS_1.4    |
++----------------+-------------------+--------------+
 | Hot End             | Hotend: e3d v6 |
++----------------+-------------------+--------------+
 | Nozzle | 0.4mm |
++----------------+-------------------+--------------+
 | Schrittmotoren      |     |
++----------------+-------------------+--------------+
 
 ### Calibration patterns
 
