@@ -26,10 +26,6 @@ Bestandteile
 +================+==================================================================+========================================================+
 | Firmware       | Marlin_                                                          | Repetier_                                              |
 +----------------+------------------------------------------------------------------+--------------------------------------------------------+
-
-.. _Marlin: https://github.com/MarlinFirmware/Marlin
-.. _Repetier: https://www.repetier.com/download-software
-
 | Mikrocontroller            | [Arduino Mega 2560](https://www.3dware.ch/Iduino-MEGA2560-De.htm) |
 +----------------+-------------------+--------------+
 | Leistungselektronik Shield | [RepRap Arduino Mega Pololu Shield (RAMPS) 1.4](https://reprap.org/wiki/RAMPS_1.4) |
@@ -46,6 +42,10 @@ Bestandteile
 +----------------+-------------------+--------------+
 | Schrittmotoren      |     |
 +----------------+-------------------+--------------+
+
+
+.. _Marlin: https://github.com/MarlinFirmware/Marlin
+.. _Repetier: https://www.repetier.com/download-software
 
 ### Calibration patterns
 
