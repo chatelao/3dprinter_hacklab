@@ -1,6 +1,6 @@
-# 3d Printer im Hacklab Bern
+# Unser 3D Drucker im Hacklab Bern
 
-Unser 3D printer im Hacklab Bern, basiert auf dem [CL-260 open-source model](https://www.thingiverse.com/minicooper/collections/cl-260).
+Der 3D Drucker im **Hacklab Bern**, basiert auf dem [CL-260 open-source model](https://www.thingiverse.com/minicooper/collections/cl-260). Er wird abwechslungsweise von Mitgliedern genutzt und verbessert, die dies wünschen.
 
 ## Bestandteile
 
@@ -15,11 +15,6 @@ Unser 3D printer im Hacklab Bern, basiert auf dem [CL-260 open-source model](htt
 | Hot End             | Hotend: e3d v6 |
 | Schrittmotoren      |     |
 
-## Firmware
-
-- 
-- 
-
 ### Calibration patterns
 
 Zur Prüfung der Ausrichtung des Heizbetts eignen sich die speziellen Quadratmuster zur Prüfung
@@ -31,7 +26,7 @@ der Durckhöhe und aus
 
 ![Calibration Patterns](calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg)
 
-### Better Z-Axis endstop
+### Bessere Z-Axis End-Stops
 
 ![Z-Axis Endstop](z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg)
 
@@ -39,7 +34,8 @@ Quelle:
 - https://www.thingiverse.com/thing:2851658
 - STL: [z_axis_sensor_print](z_axis_sensor_print)
 
-### Bed level sensor
+### Auto bed level sensoren
 
-
-
+Bed Auto Leveling
+- https://youtu.be/G-TwWfUzXpc
+- Sensor: https://de.aliexpress.com/item/32568347298.html 
