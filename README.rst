@@ -1,3 +1,5 @@
+.. image:: https://readthedocs.org/projects/3d-printer-hacklab/badge/?version=latest
+
 Unser 3D Drucker im Hacklab Bern
 ################################
 
