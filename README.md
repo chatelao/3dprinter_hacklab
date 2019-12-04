@@ -2,6 +2,15 @@
 
 Der 3D Drucker im **Hacklab Bern**, basiert auf dem CL-260 open-source model[hier](https://www.thingiverse.com/minicooper/collections/cl-260) und [hier](https://www.thingiverse.com/groups/cl-260/things). Er wird abwechslungsweise von Mitgliedern genutzt und verbessert, die dies wünschen.
 
+## Empfohlene Einstellungen
+
+| Funktionalität | Verwendete Lösung |
+| ---- | --- |
+| Drucker Art | FFF |
+| Druckauflösung | 0.15mm |
+| PLA Temperatur | 210°C |
+| Hot bed Temperatur | 55°C |
+
 ## Bestandteile
 
 | Funktionalität | Verwendete Lösung | Alternativen |
