@@ -67,6 +67,7 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 - STL: `calibration_patterns <calibration_patterns>`_
 
 .. image:: calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
+   :scale: 50 %
 
 Bessere Z-Axis Distanzeinhaltung
 ================================
@@ -85,7 +86,7 @@ Quelle:
 - STL: [z_axis_sensor_print](z_axis_sensor_print)
 
 .. image:: z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
-   :scale: 35 %
+   :scale: 50 %
 
 Induktive Abstandsensoren am Druckkopf
 --------------------------------------
