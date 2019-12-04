@@ -1,6 +1,11 @@
 # 3dprinter_hacklab
 Our 3D printer in the Hacklab Bern
 
+## Firmware
+
+- https://github.com/MarlinFirmware/Marlin
+- https://www.repetier.com/download-software/
+
 ### Calibration patterns
 
 Zur Prüfung der Ausrichtung des Heizbetts eignen sich die speziellen Quadratmuster zur Prüfung
