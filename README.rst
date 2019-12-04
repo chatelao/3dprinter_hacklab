@@ -1,11 +1,13 @@
 Unser 3D Drucker im Hacklab Bern
 ################################
 
-Der 3D Drucker im **Hacklab Bern**, basiert auf dem CL-260 open-source model `hier <https://www.thingiverse.com/minicooper/collections/cl-260>`_ 
-und `hier <https://www.thingiverse.com/groups/cl-260/things>`_. Er wird abwechslungsweise von Mitgliedern genutzt und verbessert, die dies wünschen.
+Der 3D Drucker im **Hacklab Bern**, basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_ open-source model und `mehr <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
+Er wird abwechslungsweise von Mitgliedern genutzt und verbessert.
 
 Empfohlene Einstellungen
 ========================
+
+Die folgenden Einstellungen haben sich für den Drucker bewährt.
 
 +--------------------+------------------+
 |     Enstellung     | Empfohlener Wert |
@@ -22,16 +24,18 @@ Empfohlene Einstellungen
 Bestandteile
 ============
 
+Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
+
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
 |       Funktionalität       |                                       Verwendete Lösung                                          | Alternativen |
 +============================+==================================================================================================+==============+
-| Firmware                   | Marlin_                                                                                          | Repetier_    |
+| Firmware                   | `Marlin <https://github.com/MarlinFirmware/Marlin>`_                                             | Repetier_    |
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
 | Mikrocontroller            | `Arduino Mega 2560 <https://www.3dware.ch/Iduino-MEGA2560-De.htm>`_                              |              |
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
 | Leistungselektronik Shield | `RepRap-Arduino-Mega-Pololu-Shield (RAMPS) 1.4 <https://reprap.org/wiki/RAMPS_1.4>`_             |              |
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
-| Verstärker Schrittmotoren  | `A4988 Datasheet` <https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx>`_ |              |
+| Verstärker Schrittmotoren  | `A4988 Datasheet <https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx>`_  |              |
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
 | Display Platine            | ?                                                                                                |              |
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
@@ -44,11 +48,10 @@ Bestandteile
 | Schrittmotoren             |                                                                                                  |              |
 +----------------------------+--------------------------------------------------------------------------------------------------+--------------+
 
+.. _Repetier: https://www.repetier.com/download-software
+
 .. image:: ramps_14/Rampswire14.svg
    :scale: 35 %
-
-.. _Marlin: https://github.com/MarlinFirmware/Marlin
-.. _Repetier: https://www.repetier.com/download-software
 
 Calibration patterns
 ====================
@@ -58,9 +61,9 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 
 - Video: https://youtu.be/RZRY6kunAvs
 - Quelle: https://www.thingiverse.com/thing:2789086
-- STL: [calibration_patterns](calibration_patterns)
+- STL: `calibration_patterns <calibration_patterns>`_
 
-![Calibration Patterns](calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg)
+.. image:: calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
 
 Bessere Z-Axis Distanzeinhaltung
 ================================
@@ -83,8 +86,8 @@ Quelle:
 Induktive Abstandsensoren am Druckkopf
 --------------------------------------
 
-Bed Auto Leveling
+Das sogenannte "Bed Auto Leveling" ermöglicht es ein schiefes Druckbett zu kompensieren.
+Es kann den Abstand zum Druckbett laufen und an allen Stellen ausmessen.
 
 - https://youtu.be/G-TwWfUzXpc
 - Sensor: https://de.aliexpress.com/item/32568347298.html 
-
