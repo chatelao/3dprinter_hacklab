@@ -4,7 +4,7 @@ Der 3D Drucker im **Hacklab Bern**, basiert auf dem CL-260 open-source model[hie
 
 ## Empfohlene Einstellungen
 
-| Funktionalität | Verwendete Lösung |
+| Enstellung | Empfohlener Wert |
 | ---- | --- |
 | Drucker Art | FFF |
 | Druckauflösung | 0.15mm |
