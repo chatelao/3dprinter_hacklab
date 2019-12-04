@@ -17,8 +17,8 @@ Der 3D Drucker im **Hacklab Bern**, basiert auf dem [CL-260 open-source model](h
 
 ### Calibration patterns
 
-Zur Prüfung der Ausrichtung des Heizbetts eignen sich die speziellen Quadratmuster zur Prüfung
-der Durckhöhe und aus
+Zur Prüfung der Ausrichtung des Heizbetts eignen sich dieses speziellen Quadratmuster. Es erlaubt die Prüfung
+der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 
 - Video: https://youtu.be/RZRY6kunAvs
 - Quelle: https://www.thingiverse.com/thing:2789086
