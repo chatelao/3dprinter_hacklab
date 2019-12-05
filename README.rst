@@ -69,7 +69,16 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 
 .. image:: calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
    :width: 500 px
-   
+
+Filamentreiniger
+================
+
+Auf den Filamenten haftet meist ein wenig Staub. Eine Reinigung vor dem Drucken reduziert die
+Verunreinigung am Druckkopf.
+
+.. image:: filament_cleaner/Universal_Filament_Filter_v020_preview_featured.jpg
+   :width: 300 px
+
 Bessere Z-Axis Distanzeinhaltung
 ================================
 
