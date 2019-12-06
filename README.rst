@@ -23,7 +23,7 @@ Die folgenden Software hat sich für den PC bewährt:
 +-------------------------------------------------------+------------------+-------------------+
 | `Pronterface <https://www.pronterface.com/>`_         | Fernsteuerung    | printrun          |
 +-------------------------------------------------------+------------------+-------------------+
-c
+
 Empfohlene Einstellungen
 ========================
 
