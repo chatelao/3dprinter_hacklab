@@ -89,6 +89,9 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 
 .. readme-next-page-do-not-remove
 
+Geplante Verbesserungen
+#######################
+
 Filamentreiniger
 ================
 
