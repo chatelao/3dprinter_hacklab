@@ -15,7 +15,22 @@ Empfohlene Einstellungen
 Die folgenden Einstellungen haben sich für den Drucker bewährt.
 
 +--------------------+------------------+
-|     Enstellung     | Empfohlener Wert |
+|     Software       | Zweck            |
++====================+==================+
+| Cura               | Slicer           |
++--------------------+------------------+
+| Prusa Slicer       | Slicer           |
++--------------------+------------------+
+| Pronterface        | Fernsteuerung    |
++--------------------+------------------+
+
+Empfohlene Einstellungen
+========================
+
+Die folgenden Einstellungen haben sich für den Drucker bewährt.
+
++--------------------+------------------+
+|     Einstellung    | Empfohlener Wert |
 +====================+==================+
 | Drucker Art        | FFF              |
 +--------------------+------------------+
