@@ -130,3 +130,23 @@ Es kann den Abstand zum Druckbett laufen und an allen Stellen ausmessen.
 
 - https://youtu.be/G-TwWfUzXpc
 - Sensor: https://de.aliexpress.com/item/32568347298.html
+
+
+Bessere LCD-Anzeige
+===================
+
+Die LCD-Anzeige dient zur Steuerung des Druckers direkt am Gerät. Der SD-Card Leser
+ist ebenfalls direkt in das Modul eingebaut. Dazu muss die 
+`Marlin Konfiguration <http://marlinfw.org/docs/configuration/configuration.html#lcd-controller>`_
+korrekt eingestellt werden.
+
+Aktuell enthält der Drucker ein einfaches, sehr funktionales LCD 20x2 Zeichen Display.
+Ein grösseres Display könnte die gleichen Daten etwas komfortabler darstellen. Eine
+Option ist ein $8
+`LCD 12864 Module from Aliexpress <https://www.aliexpress.com/item/1000007365397.html>`_.
+
+.. image:: lcd_12864/d715ff343a1bbe875cc5d8fa0ba307a8_preview_featured.jpg
+   :width: 500 px
+
+Ein dazu passendes Gehäuse fand sich auf `Thingiverse <https://www.thingiverse.com/thing:2813298>`_,
+oder hier im `Verzeichnis <https://github.com/chatelao/3dprinter_hacklab/blob/master/lcd_12864/Top_Shell.stl>`_.
