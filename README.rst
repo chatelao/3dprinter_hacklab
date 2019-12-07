@@ -67,6 +67,22 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 Aktueller Aufbau
 ~~~~~~~~~~~~~~~~
 
+Aktuell Marlin Konfiguration
+============================
+
+Über die serielle Schnittstelle kann das Pronterface_ die aktuelle Konfiguration auslesen:
+
+.. code-block::
+  :linenos:
+  
+    FIRMWARE_NAME:Marlin V1
+    Sprinter/grbl mashup for gen6 
+    FIRMWARE_URL:https://github.com/ErikZalm/Marlin/
+    PROTOCOL_VERSION:1.0
+    MACHINE_TYPE:Mendel
+    EXTRUDER_COUNT:1
+    UUID:00000000-0000-0000-0000-000000000000
+
 Bestandteile
 ============
 
