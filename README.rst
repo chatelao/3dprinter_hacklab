@@ -91,7 +91,7 @@ Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 |       Funktionalität       |                                        Verwendete Lösung                                        |                            Alternativen                             |
 +============================+=================================================================================================+=====================================================================+
-| Firmware                   | `Marlin 1.1.9 <https://github.com/MarlinFirmware/Marlin>`_                                      | `Marlin 2.0 <https://github.com/MarlinFirmware/Marlin>`_, Repetier_ |
+| Firmware                   | `Marlin 1.1.9 <https://github.com/MarlinFirmware/Marlin>`_                                      |  |
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 | Mikrocontroller            | `Arduino Mega 2560 <https://www.3dware.ch/Iduino-MEGA2560-De.htm>`_                             |                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
@@ -141,6 +141,21 @@ Verunreinigung am Druckkopf.
 
 Ersatz bestehender Teile
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+Neue Firmware
+=============
+
+Die aktuelle Firmware funktioniert wie gewünscht, ist allerdings nicht auf dem allerneusten Stand.
+Allfällige Verbesserungen in der Logik und Sicherheit der letzten Jahre fehlen noch und der
+Sourcecode ist aktuell nicht bekannt, allerdings ergibt die "M115" Abfrage ein Marlin V1.
+
+Daher wären eine Aktualisierung in Erwägungen zu ziehen:
+
+#. Die bestehende Firmware durch Ausbau des Arduino Mega Boards sichern.
+#. Ein neues Arduino Mega Board (`$9 Aliexpress <https://www.aliexpress.com/item/32719027443.html>`_) für die Versuche mit der neuen Firmware einbauen.
+#. Neue Firmware  `Marlin 2.0 <https://github.com/MarlinFirmware/Marlin>`_ oder Repetier_ herunterladen.
+#. Die Software für den Drucker konfigurieren (siehe HW-Konfiguration).
+#. Die Software installieren und mit Pronterface_ testen.
 
 Bessere Z-Axis Distanzeinhaltung
 ================================
