@@ -44,6 +44,13 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 | Hot bed Temperatur | 55°C             |
 +--------------------+------------------+
 
+Hilfsmittel:
+============
+
+Mit der Pronterface_ Software kann der Drucker über die serielle Schnittstelle ferngesteuert und untersucht werden:
+
+* gCode Übersicht: http://marlinfw.org/docs/gcode/M115.html
+
 Calibration patterns
 ====================
 
