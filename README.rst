@@ -17,39 +17,40 @@ Empfohlene PC/Mac Software
 
 Die folgenden Software hat sich für den PC bewährt:
 
-+-------------------------------------------------------+------------------+-------------------+
-|     Software                                          | Zweck            | Chocolately Paket |
-+=======================================================+==================+===================+
-| Cura                                                  | Slicer           | cura-new          |
-+-------------------------------------------------------+------------------+-------------------+
-| `Prusa Slicer <https://www.prusa3d.com/prusaslicer>`_ | Slicer           | prusaslicer       |
-+-------------------------------------------------------+------------------+-------------------+
-| `Pronterface <https://www.pronterface.com/>`_         | Fernsteuerung    | printrun          |
-+-------------------------------------------------------+------------------+-------------------+
++-------------------------------------------------------+---------------+-------------------+
+|                       Software                        |     Zweck     | Chocolately Paket |
++=======================================================+===============+===================+
+| Cura                                                  | Slicer        | cura-new          |
++-------------------------------------------------------+---------------+-------------------+
+| `Prusa Slicer <https://www.prusa3d.com/prusaslicer>`_ | Slicer        | prusaslicer       |
++-------------------------------------------------------+---------------+-------------------+
+| `Pronterface <https://www.pronterface.com/>`_         | Fernsteuerung | printrun          |
++-------------------------------------------------------+---------------+-------------------+
 
 Empfohlene Einstellungen
 ========================
 
 Die folgenden Einstellungen haben sich für den Drucker bewährt.
 
-+--------------------+------------------+
-|     Einstellung    | Empfohlener Wert |
-+====================+==================+
-| Drucker Art        | FFF              |
-+--------------------+------------------+
-| Druckauflösung     | 0.15mm           |
-+--------------------+------------------+
-| PLA Temperatur     | 210°C            |
-+--------------------+------------------+
-| Hot bed Temperatur | 55°C             |
-+--------------------+------------------+
++--------------------+----------------------------------+
+|    Einstellung     |         Empfohlener Wert         |
++====================+==================================+
+| Drucker Art        | FFF (Fused Filament Fabrication) |
++--------------------+----------------------------------+
+| Druckauflösung     | 0.15mm                           |
++--------------------+----------------------------------+
+| PLA Temperatur     | 210°C                            |
++--------------------+----------------------------------+
+| Hot bed Temperatur | 55°C                             |
++--------------------+----------------------------------+
 
-Hilfsmittel:
-============
+Hilfsmittel
+===========
 
-Mit der Pronterface_ Software kann der Drucker über die serielle Schnittstelle ferngesteuert und untersucht werden:
+Mit der Pronterface_ Software kann der Drucker mit `gCode Befehlen <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder dem GUI über die serielle Schnittstelle ferngesteuert und untersucht werden.
 
-* gCode Übersicht: http://marlinfw.org/docs/gcode/M115.html
+.. image:: pronterface/pronterface_gui.jpg
+   :width: 300 px
 
 Calibration patterns
 ====================
@@ -74,7 +75,7 @@ Aktuell Marlin Konfiguration
 
 .. code-block::
   :linenos:
-  
+
     FIRMWARE_NAME:Marlin V1
     Sprinter/grbl mashup for gen6 
     FIRMWARE_URL:https://github.com/ErikZalm/Marlin/
