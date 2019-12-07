@@ -72,8 +72,7 @@ Aktuell Marlin Konfiguration
 
 Über die serielle Schnittstelle kann das Pronterface_ die aktuelle Konfiguration auslesen:
 
-.. code-block::
-  :linenos:
+::
   
     FIRMWARE_NAME:Marlin V1
     Sprinter/grbl mashup for gen6 
