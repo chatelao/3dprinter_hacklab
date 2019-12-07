@@ -6,6 +6,9 @@
 Unser 3D Drucker im Hacklab Bern
 ################################
 
+Anleitung zum Drucken
+~~~~~~~~~~~~~~~~~~~~~
+
 Der 3D Drucker im **Hacklab Bern**, basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_ open-source model und `mehr <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
 Er wird abwechslungsweise von Mitgliedern genutzt und verbessert.
 
@@ -100,6 +103,9 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 Geplante Verbesserungen
 #######################
 
+Erweiterungen
+~~~~~~~~~~~~~
+
 Filamentreiniger
 ================
 
@@ -108,6 +114,9 @@ Verunreinigung am Druckkopf.
 
 .. image:: filament_cleaner/Universal_Filament_Filter_v020_preview_featured.jpg
    :width: 300 px
+
+Ersatz bestehender Teile
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Bessere Z-Axis Distanzeinhaltung
 ================================
