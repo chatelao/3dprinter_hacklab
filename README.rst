@@ -44,6 +44,22 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 | Hot bed Temperatur | 55°C             |
 +--------------------+------------------+
 
+Calibration patterns
+====================
+
+Zur Prüfung der Ausrichtung des Heizbetts eignen sich dieses speziellen Quadratmuster. Es erlaubt die Prüfung
+der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
+
+- Video: https://youtu.be/RZRY6kunAvs
+- Quelle: https://www.thingiverse.com/thing:2789086
+- STL: `calibration_patterns <https://github.com/chatelao/3dprinter_hacklab/tree/master/calibration_patterns>`_
+
+.. image:: calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
+   :width: 500 px
+
+Aktueller Aufbau
+~~~~~~~~~~~~~~~~
+
 Bestandteile
 ============
 
@@ -68,7 +84,7 @@ Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 | Nozzle                     | 0.4mm                                                                                           |                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| Schrittmotoren             | ?                                                                                               |                                                                     |
+| Schrittmotoren             | NEMA ?                                                                                          |                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 | Stromversorgung            | Schaltnetzteil 12V 20A ohne aktive Kühlung                                                      |                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
@@ -77,26 +93,11 @@ Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 | Datenkabel                 | USB-Kabel mit Standard-B Stecker den Mikrocontroller                                            |                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 
-
-
 .. _Repetier: https://www.repetier.com/download-software
 
 .. image:: ramps_14/Rampswire14.svg
    :width: 500 px
    :scale: 35 %
-
-Calibration patterns
-====================
-
-Zur Prüfung der Ausrichtung des Heizbetts eignen sich dieses speziellen Quadratmuster. Es erlaubt die Prüfung
-der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
-
-- Video: https://youtu.be/RZRY6kunAvs
-- Quelle: https://www.thingiverse.com/thing:2789086
-- STL: `calibration_patterns <https://github.com/chatelao/3dprinter_hacklab/tree/master/calibration_patterns>`_
-
-.. image:: calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
-   :width: 500 px
 
 .. readme-next-page-do-not-remove
 
