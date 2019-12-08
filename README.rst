@@ -185,6 +185,8 @@ Es kann den Abstand zum Druckbett laufen und an allen Stellen ausmessen.
 - https://youtu.be/G-TwWfUzXpc
 - Sensor: https://de.aliexpress.com/item/32568347298.html
 
+Verbesserte Halterung
+- https://www.thingiverse.com/thing:2332037
 
 Bessere LCD-Anzeige
 ===================
