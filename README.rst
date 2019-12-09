@@ -85,7 +85,13 @@ Mit der Pronterface_ Software kann der Drucker mit `gCode Befehlen <http://marli
 
    >>> M115
    SENDING:M115
-   FIRMWARE_NAME:Marlin 2.0.x (GitHub) SOURCE_CODE_URL:https://github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:Hacklab CL-260 EXTRUDER_COUNT:1 UUID:b01ac89d-d7b3-43ec-8f82-dfb65c785486
+   FIRMWARE_NAME:Marlin 2.0.x (GitHub)
+   SOURCE_CODE_URL:https://github.com/MarlinFirmware/Marlin
+   PROTOCOL_VERSION:1.0
+   MACHINE_TYPE:Hacklab CL-260 
+   EXTRUDER_COUNT:1 
+   UUID:b01ac89d-d7b3-43ec-8f82-dfb65c785486
+   
    Cap:SERIAL_XON_XOFF:0
    Cap:BINARY_FILE_TRANSFER:0
    Cap:EEPROM:0
