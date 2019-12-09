@@ -1,4 +1,3 @@
-.. image:: https://readthedocs.org/projects/3d-printer-hacklab/badge/?version=latest
    :target: https://3d-printer-hacklab.readthedocs.io/en/latest/?badge=latest
 
 .. readme-header-marker-do-not-remove
@@ -47,10 +46,7 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 Hilfsmittel
 ===========
 
-Mit der Pronterface_ Software kann der Drucker mit `gCode Befehlen <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder dem GUI über die serielle Schnittstelle ferngesteuert und untersucht werden.
 
-.. image:: 55_pronterface/pronterface_gui.jpg
-   :width: 300 px
 
 Calibration patterns
 ====================
@@ -71,7 +67,9 @@ Aktueller Aufbau
 Aktuell Marlin Konfiguration
 ============================
 
-Über die serielle Schnittstelle kann das Pronterface_ die aktuelle Konfiguration auslesen:
+Mit der Pronterface_ Software kann der Drucker mit `gCode Befehlen <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder dem GUI über die serielle Schnittstelle ferngesteuert und untersucht werden:
+
+1. M115 - Firmware Informations
 
 ::
   
@@ -82,6 +80,13 @@ Aktuell Marlin Konfiguration
     MACHINE_TYPE:Mendel
     EXTRUDER_COUNT:1
     UUID:00000000-0000-0000-0000-000000000000
+
+
+
+2. M503 - Report Settings
+
+.. image:: 55_pronterface/pronterface_gui.jpg
+   :width: 300 px
 
 Bestandteile
 ============
