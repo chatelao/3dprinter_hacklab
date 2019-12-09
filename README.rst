@@ -49,7 +49,7 @@ Hilfsmittel
 
 Mit der Pronterface_ Software kann der Drucker mit `gCode Befehlen <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder dem GUI über die serielle Schnittstelle ferngesteuert und untersucht werden.
 
-.. image:: pronterface/pronterface_gui.jpg
+.. image:: 55_pronterface/pronterface_gui.jpg
    :width: 300 px
 
 Calibration patterns
@@ -62,7 +62,7 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 - Quelle: https://www.thingiverse.com/thing:2789086
 - STL: `calibration_patterns <https://github.com/chatelao/3dprinter_hacklab/tree/master/calibration_patterns>`_
 
-.. image:: calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
+.. image:: 30_calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
    :width: 500 px
 
 Aktueller Aufbau
@@ -107,7 +107,7 @@ Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+--------------+
 | Nozzle                                                  | 0.4mm                                                                                           |              |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+--------------+
-| `3D Teile <https://www.thingiverse.com/thing:1800495>`_ | Gedruckte Teile                                                                                          |              |
+| `3D Teile <https://www.thingiverse.com/thing:1800495>`_ | Gedruckte Teile                                                                                 |              |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+--------------+
 | Schrittmotoren                                          | NEMA ?                                                                                          |              |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+--------------+
@@ -120,7 +120,7 @@ Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 
 .. _Repetier: https://www.repetier.com/download-software
 
-.. image:: ramps_14/Rampswire14.svg
+.. image:: 10_ramps_14/Rampswire14.svg
    :width: 500 px
    :scale: 35 %
 
@@ -138,7 +138,7 @@ Filamentreiniger
 Auf den Filamenten haftet meist ein wenig Staub. Eine Reinigung vor dem Drucken reduziert die
 Verunreinigung am Druckkopf.
 
-.. image:: filament_cleaner/Universal_Filament_Filter_v020_preview_featured.jpg
+.. image:: 20_filament_cleaner/Universal_Filament_Filter_v020_preview_featured.jpg
    :width: 300 px
 
 Ersatz bestehender Teile
@@ -175,7 +175,7 @@ Quelle:
 - https://www.thingiverse.com/thing:2851658
 - STL: `z_axis_sensor_print <https://github.com/chatelao/3dprinter_hacklab/tree/master/z_axis_sensor_print>`_
 
-.. image:: z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
+.. image:: 03_z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
    :width: 500 px
 
 Induktive Abstandsensoren am Druckkopf
@@ -203,7 +203,7 @@ Ein grösseres Display könnte die gleichen Daten etwas komfortabler darstellen.
 Option ist ein $8
 `LCD 12864 Module from Aliexpress <https://www.aliexpress.com/item/1000007365397.html>`_.
 
-.. image:: lcd_12864/d715ff343a1bbe875cc5d8fa0ba307a8_preview_featured.jpg
+.. image:: 15_lcd_12864/d715ff343a1bbe875cc5d8fa0ba307a8_preview_featured.jpg
    :width: 500 px
 
 Ein dazu passendes Gehäuse fand sich auf `Thingiverse <https://www.thingiverse.com/thing:2813298>`_,
