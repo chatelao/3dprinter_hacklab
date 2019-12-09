@@ -43,10 +43,10 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 | Hot bed Temperatur | 55°C                             |
 +--------------------+----------------------------------+
 
-Hilfsmittel
-===========
+Düse montieren
+==============
 
-
+- https://youtu.be/OzRAVkXjw3I
 
 Calibration patterns
 ====================
