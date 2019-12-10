@@ -67,7 +67,7 @@ Aktueller Aufbau
 Aktuell Marlin Konfiguration
 ============================
 
-Mit der Pronterface_ Software kann der Drucker mit `gCode Befehlen <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder dem GUI über die serielle Schnittstelle ferngesteuert und untersucht werden:
+Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder das GUI mit der seriellen Schnittstelle ferngesteuert und untersucht werden:
 
 1. M115 - Firmware Informations
 
