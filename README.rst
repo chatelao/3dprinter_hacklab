@@ -69,6 +69,9 @@ Aktuell Marlin Konfiguration
 
 Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder das GUI mit der seriellen Schnittstelle ferngesteuert und untersucht werden:
 
+.. image:: 55_pronterface/pronterface_gui.jpg
+   :width: 300 px
+
 1a. M115 - Firmware Informations
 
 ::
@@ -117,63 +120,88 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
 ::
 
    SENDING:M503
-   
    echo:Steps per unit:
    echo:  M92 X80.00 Y80.00 Z1600.00 E145.00
-
    echo:Maximum feedrates (mm/s):
    echo:  M203 X300.00 Y300.00 Z5.00 E45.00
-   
    echo:Maximum Acceleration (mm/s2):
    echo:  M201 X9000 Y9000 Z100 E10000
-   
    echo:Acceleration: S=acceleration, T=retract acceleration
    echo:  M204 S3000.00 T3000.00
-   
    echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
    echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
-   
    echo:Home offset (mm):
    echo:  M206 X0.00 Y0.00 Z0.00
-   
    echo:PID settings:
    echo:   M301 P22.20 I1.08 D114.00
 
 2b. M503 - Report Settings (Marlin 2.0.x)
-
 ::
 
    SENDING:M503
-
    echo:  G21    ; Units in mm (mm)
-
    echo:Filament settings: Disabled
    echo:  M200 D3.00
    echo:  M200 D0
-
    echo:Steps per unit:
    echo: M92 X80.00 Y80.00 Z4000.00 E500.00
-
    echo:Maximum feedrates (units/s):
    echo:  M203 X300.00 Y300.00 Z5.00 E25.00
-
    echo:Maximum Acceleration (units/s2):
    echo:  M201 X3000.00 Y3000.00 Z100.00 E10000.00
-
    echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
    echo:  M204 P3000.00 R3000.00 T3000.00
-
    echo:Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
    echo:  M205 B20000.00 S0.00 T0.00 J0.01
-
    echo:Home offset:
    echo:  M206 X0.00 Y0.00 Z0.00
-
    echo:PID settings:
    echo:  M301 P22.20 I1.08 D114.00
 
-.. image:: 55_pronterface/pronterface_gui.jpg
-   :width: 300 px
++--------------------------------+-------+-----------+--------------+
+|          Einstellung           | gCode | Marlin V1 | Marlin 2.0.x |
++================================+=======+===========+==============+
+| Units in mm (mm)               | G21   | n/a       | -            |
++--------------------------------+-------+-----------+--------------+
+| Filament diameter              | M200  | n/a       | D1.75        |
++--------------------------------+-------+-----------+--------------+
+| Steps per unit                 | M92   | X80.00    | X80.00       |
+|                                |       | Y80.00    | Y80.00       |
+|                                |       | Z1600.00  | Z1600.00     |
+|                                |       | E145.00   | E145.00      |
++--------------------------------+-------+-----------+--------------+
+| Max. feedrates (mm/s)          | M203  | X300.00   | X300.00      |
+|                                |       | Y300.00   | Y300.00      |
+|                                |       | Z5.00     | Z5.00        |
+|                                |       | E45.00    | E45.00       |
++--------------------------------+-------+-----------+--------------+
+| Max. Acceleration (mm/s2)      | M201  |           | X9000        |
+|                                |       |           | Y9000        |
+|                                |       |           | Z100         |
+|                                |       |           | E10000       |
++--------------------------------+-------+-----------+--------------+
+| S=Acceleration                 | M204  | S3000.00  | -            |
+| P=Print Acceleration (mm/s2)   |       | -         | P3000.00     |
+| R=Retract Acceleration (mm/s2) |       | -         | R3000.00     |
+| T=Retract Acceleration (mm/s2) |       | T3000.00  | -            |
+| T=Travel Acceleration (mm/s2)  |       | -         | T3000.00     |
++--------------------------------+-------+-----------+--------------+
+| B=minimum segment time (ms)    | M205  |           | B20000       |
+| S=Min feedrate (mm/s)          |       |           | S0.00        |
+| T=Min travel feedrate (mm/s)   |       |           | T0.00        |
+| X=maximum XY jerk (mm/s)       |       |           | X20.00       |
+| Z=maximum Z jerk (mm/s)        |       |           | Z0.40        |
+| E=maximum E jerk (mm/s)        |       | E5.0      | -            |
+| J=Junc_dev                     |       |           | j0.01        |
++--------------------------------+-------+-----------+--------------+
+| Home offset (mm)               | M206  |           | X0.00        |
+|                                |       |           | Y0.00        |
+|                                |       |           | Z0.00        |
++--------------------------------+-------+-----------+--------------+
+| PID settings                   | M301  |           | P22.20       |
+|                                |       |           | I1.08        |
+|                                |       |           | D114.00      |
++--------------------------------+-------+-----------+--------------+
 
 Bestandteile
 ============
