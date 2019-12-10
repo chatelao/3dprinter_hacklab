@@ -1,4 +1,3 @@
-.. image:: https://readthedocs.org/projects/3d-printer-hacklab/badge/?version=latest
    :target: https://3d-printer-hacklab.readthedocs.io/en/latest/?badge=latest
 
 .. readme-header-marker-do-not-remove
@@ -44,13 +43,10 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 | Hot bed Temperatur | 55°C                             |
 +--------------------+----------------------------------+
 
-Hilfsmittel
-===========
+Düse montieren
+==============
 
-Mit der Pronterface_ Software kann der Drucker mit `gCode Befehlen <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder dem GUI über die serielle Schnittstelle ferngesteuert und untersucht werden.
-
-.. image:: 55_pronterface/pronterface_gui.jpg
-   :width: 300 px
+- https://youtu.be/OzRAVkXjw3I
 
 Calibration patterns
 ====================
@@ -71,7 +67,9 @@ Aktueller Aufbau
 Aktuell Marlin Konfiguration
 ============================
 
-Über die serielle Schnittstelle kann das Pronterface_ die aktuelle Konfiguration auslesen:
+Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder das GUI mit der seriellen Schnittstelle ferngesteuert und untersucht werden:
+
+1. M115 - Firmware Informations
 
 ::
   
@@ -82,6 +80,63 @@ Aktuell Marlin Konfiguration
     MACHINE_TYPE:Mendel
     EXTRUDER_COUNT:1
     UUID:00000000-0000-0000-0000-000000000000
+
+::
+
+   >>> M115
+   SENDING:M115
+   FIRMWARE_NAME:Marlin 2.0.x (GitHub)
+   SOURCE_CODE_URL:https://github.com/MarlinFirmware/Marlin
+   PROTOCOL_VERSION:1.0
+   MACHINE_TYPE:Hacklab CL-260 
+   EXTRUDER_COUNT:1 
+   UUID:b01ac89d-d7b3-43ec-8f82-dfb65c785486
+   
+   Cap:SERIAL_XON_XOFF:0
+   Cap:BINARY_FILE_TRANSFER:0
+   Cap:EEPROM:0
+   Cap:VOLUMETRIC:1
+   Cap:AUTOREPORT_TEMP:1
+   Cap:PROGRESS:0
+   Cap:PRINT_JOB:1
+   Cap:AUTOLEVEL:0
+   Cap:Z_PROBE:0
+   Cap:LEVELING_DATA:0
+   Cap:BUILD_PERCENT:0
+   Cap:SOFTWARE_POWER:0
+   Cap:TOGGLE_LIGHTS:0
+   Cap:CASE_LIGHT_BRIGHTNESS:0
+   Cap:EMERGENCY_PARSER:0
+   Cap:PROMPT_SUPPORT:0
+   Cap:AUTOREPORT_SD_STATUS:0
+
+2. M503 - Report Settings
+
+::
+
+   >>> m503
+   SENDING:M503
+   echo:  G21    ; Units in mm (mm)
+   echo:Filament settings: Disabled
+   echo:  M200 D3.00
+   echo:  M200 D0
+   echo:Steps per unit:
+   echo: M92 X80.00 Y80.00 Z4000.00 E500.00
+   echo:Maximum feedrates (units/s):
+   echo:  M203 X300.00 Y300.00 Z5.00 E25.00
+   echo:Maximum Acceleration (units/s2):
+   echo:  M201 X3000.00 Y3000.00 Z100.00 E10000.00
+   echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+   echo:  M204 P3000.00 R3000.00 T3000.00
+   echo:Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
+   echo:  M205 B20000.00 S0.00 T0.00 J0.01
+   echo:Home offset:
+   echo:  M206 X0.00 Y0.00 Z0.00
+   echo:PID settings:
+   echo:  M301 P22.20 I1.08 D114.00
+
+.. image:: 55_pronterface/pronterface_gui.jpg
+   :width: 300 px
 
 Bestandteile
 ============
