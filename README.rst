@@ -318,6 +318,7 @@ Mit der gCode Befehl M119 kann der aktuelle Zustand der Endabschalter ausgelesen
 Die Abfrage zeigt bei unserer Elektronik ausgelöste Stopps im offenen Zustand:
 
 ::
+
    Reporting endstop status
    x_min: TRIGGERED
    y_min: TRIGGERED
@@ -327,13 +328,14 @@ Ein anschliessend testweise ausgelöster Z-Entstopp wird als offen angezeigt, de
 also fehlerfrei ausgelesen und ist nur invertiert:
 
 ::
+
    Reporting endstop status
    x_min: TRIGGERED
    y_min: TRIGGERED
    z_min: open
 
 
-Zur Korrektur ist kann die Konfiguration angepasst werdem. Die xxx_INVERTING Werte sind
+Zur Korrektur muss die Konfiguration angepasst werden. Die xxx_MIN_ENDSTOP_INVERTING Werte sind
 normalerweise "false" und müssen auf "true" umgestellt werden:
 
 ::
