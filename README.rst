@@ -306,6 +306,42 @@ Daher wären eine Aktualisierung in Erwägungen zu ziehen:
 #. Die Software für den Drucker konfigurieren (siehe HW-Konfiguration).
 #. Die Software installieren und mit Pronterface_ testen.
 
+Hilfestellungen in der Fehlersuche der neuen Konfiguration:
+
+- https://www.youtube.com/watch?v=0pt_b2ZizQM
+- https://www.youtube.com/watch?v=lAKyZd63_ns (2016: https://www.youtube.com/watch?v=3gwWVFtdg-4)
+
+Abfrage der Endabschalter
+--------------------------
+
+Mit der gCode Befehl M119 kann der aktuelle Zustand der Endabschalter ausgelesen werden.
+Die Abfrage zeigt bei unserer Elektronik ausgelöste Stopps im offenen Zustand:
+
+::
+   Reporting endstop status
+   x_min: TRIGGERED
+   y_min: TRIGGERED
+   z_min: TRIGGERED
+
+Ein anschliessend testweise ausgelöster Z-Entstopp wird als offen angezeigt, der Wert wird
+also fehlerfrei ausgelesen und ist nur invertiert:
+
+::
+   Reporting endstop status
+   x_min: TRIGGERED
+   y_min: TRIGGERED
+   z_min: open
+
+
+Zur Korrektur ist kann die Konfiguration angepasst werdem. Die xxx_INVERTING Werte sind
+normalerweise "false" und müssen auf "true" umgestellt werden:
+
+::
+
+   #define X_MIN_ENDSTOP_INVERTING true
+   #define Y_MIN_ENDSTOP_INVERTING true
+   #define Z_MIN_ENDSTOP_INVERTING true
+
 Bessere Z-Axis Distanzeinhaltung
 ================================
 
