@@ -147,20 +147,23 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
    SENDING:M503
    echo:  G21    ; Units in mm (mm)
    echo:Filament settings: Disabled
-   echo:  M200 D3.00
+   echo:  M200 D1.75
    echo:  M200 D0
    echo:Steps per unit:
-   echo: M92 X80.00 Y80.00 Z4000.00 E500.00
+   echo: M92 X80.00 Y80.00 Z1600.00 E145.00
    echo:Maximum feedrates (units/s):
-   echo:  M203 X300.00 Y300.00 Z5.00 E25.00
+   echo:  M203 X300.00 Y300.00 Z5.00 E45.00
    echo:Maximum Acceleration (units/s2):
-   echo:  M201 X3000.00 Y3000.00 Z100.00 E10000.00
+   echo:  M201 X9000.00 Y9000.00 Z100.00 E10000.00
    echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
    echo:  M204 P3000.00 R3000.00 T3000.00
    echo:Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
    echo:  M205 B20000.00 S0.00 T0.00 J0.01
    echo:Home offset:
    echo:  M206 X0.00 Y0.00 Z0.00
+   echo:Material heatup parameters:
+   echo:  M145 S0 H180 B70 F0
+   echo:  M145 S1 H240 B110 F0
    echo:PID settings:
    echo:  M301 P22.20 I1.08 D114.00
 
