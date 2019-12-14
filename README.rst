@@ -1,3 +1,4 @@
+.. image:: https://readthedocs.org/projects/3d-printer-hacklab/badge/?version=latest
    :target: https://3d-printer-hacklab.readthedocs.io/en/latest/?badge=latest
 
 .. readme-header-marker-do-not-remove
