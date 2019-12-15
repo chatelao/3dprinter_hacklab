@@ -44,6 +44,14 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 | Hot bed Temperatur | 55°C                             |
 +--------------------+----------------------------------+
 
+Fehlersuche
+===========
+
+Die Fehlersuche am Drucker ist mühsam, allerdings bietet Pursa ein Handbuch
+zum Erkennen der gängigsten Fehler:
+
+- https://www.prusa3d.com/print-quality-troubleshooting/
+
 Düse montieren
 ==============
 
