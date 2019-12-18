@@ -52,6 +52,10 @@ zum Erkennen der gängigsten Fehler:
 
 - https://www.prusa3d.com/print-quality-troubleshooting/
 
+Dazu hat auch der 3D-Andi ein hervorragendes Video mit vielen Fehlerquellen und -lösungen gedreht:
+
+- https://www.youtube.com/watch?v=WL3T_ijUUs8
+
 Düse montieren
 ==============
 
