@@ -1,3 +1,4 @@
+.. image:: https://readthedocs.org/projects/3d-printer-hacklab/badge/?version=latest
    :target: https://3d-printer-hacklab.readthedocs.io/en/latest/?badge=latest
 
 .. readme-header-marker-do-not-remove
@@ -8,7 +9,7 @@ Unser 3D Drucker im Hacklab Bern
 Anleitung zum Drucken
 ~~~~~~~~~~~~~~~~~~~~~
 
-Der 3D Drucker im **Hacklab Bern**, basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_ open-source model und `mehr <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
+Der 3D Drucker im **Hacklab Bern**, basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_ open-source `Model <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
 Er wird abwechslungsweise von Mitgliedern genutzt und verbessert.
 
 Empfohlene PC/Mac Software
@@ -44,6 +45,18 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 +--------------------+----------------------------------+
 | Retraction         | 5mm                              |
 +--------------------+----------------------------------+
+
+Fehlersuche
+===========
+
+Die Fehlersuche am Drucker ist mühsam, allerdings bietet Pursa ein Handbuch
+zum Erkennen der gängigsten Fehler:
+
+- https://www.prusa3d.com/print-quality-troubleshooting/
+
+Dazu hat auch der 3D-Andi ein hervorragendes Video mit vielen Fehlerquellen und -lösungen gedreht:
+
+- https://www.youtube.com/watch?v=WL3T_ijUUs8
 
 Düse montieren
 ==============
@@ -267,6 +280,60 @@ Verunreinigung am Druckkopf.
 Ersatz bestehender Teile
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+Bessere Z-Axis Distanzeinhaltung
+================================
+
+Nur eine präzises Startdistanz zum Heizbett erlaubt präzise erste Schichten.
+
+Verbesserte Stopp Schalter Führung
+----------------------------------
+
+Der End-Stops soll den Schalter wiederholbar zum gleichen Zeitpunkt auslösen. Der Würfel erlaubt
+grössere Toleranzen zum Treffen des Schalters.
+
+Quelle:
+
+- https://www.thingiverse.com/thing:2851658
+- STL: `z_axis_sensor_print <https://github.com/chatelao/3dprinter_hacklab/tree/master/z_axis_sensor_print>`_
+
+.. image:: 03_z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
+   :width: 500 px
+
+Induktive Abstandsensoren am Druckkopf
+--------------------------------------
+
+Das sogenannte "Bed Auto Leveling" ermöglicht es ein schiefes Druckbett zu kompensieren.
+Es kann den Abstand zum Druckbett laufen und an allen Stellen ausmessen.
+
+- https://youtu.be/G-TwWfUzXpc
+- Sensor: https://de.aliexpress.com/item/32568347298.html
+
+Verbesserte Halterung
+- https://www.thingiverse.com/thing:2332037
+
+
+Bessere LCD-Anzeige
+===================
+
+Die LCD-Anzeige dient zur Steuerung des Druckers direkt am Gerät. Der SD-Card Leser
+ist ebenfalls direkt in das Modul eingebaut. Dazu muss die 
+`Marlin Konfiguration <http://marlinfw.org/docs/configuration/configuration.html#lcd-controller>`_
+korrekt eingestellt werden.
+
+Aktuell enthält der Drucker ein einfaches, sehr funktionales LCD 20x2 Zeichen Display.
+Ein grösseres Display könnte die gleichen Daten etwas komfortabler darstellen. Eine
+Option ist ein $8
+`LCD 12864 Module from Aliexpress <https://www.aliexpress.com/item/1000007365397.html>`_.
+
+.. image:: 15_lcd_12864/d715ff343a1bbe875cc5d8fa0ba307a8_preview_featured.jpg
+   :width: 500 px
+
+Ein dazu passendes Gehäuse fand sich auf `Thingiverse <https://www.thingiverse.com/thing:2813298>`_,
+oder hier im `Verzeichnis <https://github.com/chatelao/3dprinter_hacklab/blob/master/lcd_12864/Top_Shell.stl>`_.
+
+Durchgeführte Verbesserungen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Neue Firmware
 =============
 
@@ -319,53 +386,3 @@ normalerweise "false" und müssen auf "true" umgestellt werden:
    #define X_MIN_ENDSTOP_INVERTING true
    #define Y_MIN_ENDSTOP_INVERTING true
    #define Z_MIN_ENDSTOP_INVERTING true
-
-Bessere Z-Axis Distanzeinhaltung
-================================
-
-Nur eine präzises Startdistanz zum Heizbett erlaubt präzise erste Schichten.
-
-Verbesserte Stopp Schalter Führung
-----------------------------------
-
-Der End-Stops soll den Schalter wiederholbar zum gleichen Zeitpunkt auslösen. Der Würfel erlaubt
-grössere Toleranzen zum Treffen des Schalters.
-
-Quelle:
-
-- https://www.thingiverse.com/thing:2851658
-- STL: `z_axis_sensor_print <https://github.com/chatelao/3dprinter_hacklab/tree/master/z_axis_sensor_print>`_
-
-.. image:: 03_z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
-   :width: 500 px
-
-Induktive Abstandsensoren am Druckkopf
---------------------------------------
-
-Das sogenannte "Bed Auto Leveling" ermöglicht es ein schiefes Druckbett zu kompensieren.
-Es kann den Abstand zum Druckbett laufen und an allen Stellen ausmessen.
-
-- https://youtu.be/G-TwWfUzXpc
-- Sensor: https://de.aliexpress.com/item/32568347298.html
-
-Verbesserte Halterung
-- https://www.thingiverse.com/thing:2332037
-
-Bessere LCD-Anzeige
-===================
-
-Die LCD-Anzeige dient zur Steuerung des Druckers direkt am Gerät. Der SD-Card Leser
-ist ebenfalls direkt in das Modul eingebaut. Dazu muss die 
-`Marlin Konfiguration <http://marlinfw.org/docs/configuration/configuration.html#lcd-controller>`_
-korrekt eingestellt werden.
-
-Aktuell enthält der Drucker ein einfaches, sehr funktionales LCD 20x2 Zeichen Display.
-Ein grösseres Display könnte die gleichen Daten etwas komfortabler darstellen. Eine
-Option ist ein $8
-`LCD 12864 Module from Aliexpress <https://www.aliexpress.com/item/1000007365397.html>`_.
-
-.. image:: 15_lcd_12864/d715ff343a1bbe875cc5d8fa0ba307a8_preview_featured.jpg
-   :width: 500 px
-
-Ein dazu passendes Gehäuse fand sich auf `Thingiverse <https://www.thingiverse.com/thing:2813298>`_,
-oder hier im `Verzeichnis <https://github.com/chatelao/3dprinter_hacklab/blob/master/lcd_12864/Top_Shell.stl>`_.
