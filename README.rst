@@ -89,6 +89,9 @@ der Druckhöhe und der Distanz zwischen Hotend und Heizbetts.
 .. image:: 30_calibration_patterns/a11e319e6441382d85e158443514f1c2_preview_featured.jpg
    :width: 500 px
 
+Weitere Kalibrierungsmuster:
+- https://www.youtube.com/watch?v=kgCjDy_IgXg
+
 Support Forum
 =============
 
