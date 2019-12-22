@@ -149,7 +149,7 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
    echo:  M200 D1.75
    echo:  M200 D0
    echo:Steps per unit:
-   echo: M92 X80.00 Y80.00 Z1600.00 E145.00
+   echo: M92 X80.00 Y80.00 Z1600.00 E161.00
    echo:Maximum feedrates (units/s):
    echo:  M203 X300.00 Y300.00 Z5.00 E45.00
    echo:Maximum Acceleration (units/s2):
@@ -179,7 +179,7 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
 |                                |       +--------------+
 |                                |       | Z1600.00     |
 |                                |       +--------------+
-|                                |       | E145.00      |
+|                                |       | E161.00      |
 +--------------------------------+-------+--------------+
 | Max. feedrates (mm/s)          | M203  | X300.00      |
 |                                |       +--------------+
