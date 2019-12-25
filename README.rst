@@ -279,7 +279,7 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
    :width: 500 px
    :scale: 35 %
 
-.. image:: RAMPS-Shield-1.4-bovenkant-legenda.jpg
+.. image:: 10_ramps_14/RAMPS-Shield-1.4-bovenkant-legenda.jpg
    :width: 500 px
    :scale: 35 %
 
