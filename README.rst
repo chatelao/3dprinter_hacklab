@@ -97,10 +97,7 @@ Support Forum
 
 
 Aktueller Aufbau
-~~~~~~~~~~~~~~~~
-
-Bestandteile
-============
+################################
 
 Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 
@@ -142,15 +139,16 @@ Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 
 .. _Repetier: https://www.repetier.com/download-software
 
-Aktuell Marlin Konfiguration
-============================
+Marlin Konfiguration
+~~~~~~~~~~~~~~~~~~~~
 
 Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marlinfw.org/docs/gcode/M115.htmlüber>`_ oder das GUI mit der seriellen Schnittstelle ferngesteuert und untersucht werden:
 
 .. image:: 55_pronterface/pronterface_gui.jpg
    :width: 300 px
 
-1. M115 - Firmware Informations
+M115 - Firmware Informations
+============================
 
 ::
 
@@ -181,31 +179,8 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
    Cap:PROMPT_SUPPORT:0
    Cap:AUTOREPORT_SD_STATUS:0
 
-2. M503 - Report Settings (Marlin 2.0.x)
-::
-
-   SENDING:M503
-   echo:  G21    ; Units in mm (mm)
-   echo:Filament settings: Disabled
-   echo:  M200 D1.75
-   echo:  M200 D0
-   echo:Steps per unit:
-   echo: M92 X80.00 Y80.00 Z1600.00 E161.00
-   echo:Maximum feedrates (units/s):
-   echo:  M203 X300.00 Y300.00 Z5.00 E45.00
-   echo:Maximum Acceleration (units/s2):
-   echo:  M201 X9000.00 Y9000.00 Z100.00 E10000.00
-   echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
-   echo:  M204 P3000.00 R3000.00 T3000.00
-   echo:Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
-   echo:  M205 B20000.00 S0.00 T0.00 J0.01
-   echo:Home offset:
-   echo:  M206 X0.00 Y0.00 Z0.00
-   echo:Material heatup parameters:
-   echo:  M145 S0 H180 B70 F0
-   echo:  M145 S1 H240 B110 F0
-   echo:PID settings:
-   echo:  M301 P22.20 I1.08 D114.00
+M503 - Report Settings (Marlin 2.0.x)
+=====================================
 
 +--------------------------------+-------+--------------+
 |          Einstellung           | gCode | Marlin 2.0.x |
@@ -254,12 +229,6 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
 +--------------------------------+       +--------------+
 | T=Min travel feedrate (mm/s)   |       | T0.00        |
 +--------------------------------+       +--------------+
-| X=maximum XY jerk (mm/s)       |       |              |
-+--------------------------------+       +--------------+
-| Z=maximum Z jerk (mm/s)        |       |              |
-+--------------------------------+       +--------------+
-| E=maximum E jerk (mm/s)        |       |              |
-+--------------------------------+       +--------------+
 | J=Junc_dev                     |       | J0.01        |
 +--------------------------------+-------+--------------+
 | Home offset (mm)               | M206  | X0.00        |
@@ -273,17 +242,17 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
 |                                |       | D114.00      |
 +--------------------------------+-------+--------------+
 
-.. image:: 10_ramps_14/Rampswire14.svg
+.. image:: 11_RAMPS_14/Rampswire14.svg
    :width: 500 px
    :scale: 35 %
 
-.. image:: 10_ramps_14/RAMPS-Shield-1.4-bovenkant-legenda.jpg
+.. image:: 11_RAMPS_14/RAMPS-Shield-1.4-bovenkant-legenda.jpg
    :width: 500 px
 
-.. image:: 10_ramps_14/800px-Arduinomega1-4connectors.png
+.. image:: 11_RAMPS_14/800px-Arduinomega1-4connectors.png
    :width: 500 px
 
-.. image:: 10_ramps_14/1194px-Arduinomegapololushieldschematic.png
+.. image:: 11_RAMPS_14/RAMPS1.4schematic.png
    :width: 500 px
    :scale: 35 %
 
