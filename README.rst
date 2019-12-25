@@ -35,8 +35,6 @@ Filamente können hier bezogen werden:
 - Im FabLab Bern: https://www.objektweberei.ch
 - Online u.a. bei 3D-Jake: https://www.3djake.ch/de-CH/filament/pla-filament
 
-https://www.3djake.ch/de-CH/filament/pla-filament
-
 Empfohlene Einstellungen
 ========================
 
