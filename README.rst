@@ -110,17 +110,19 @@ Die Mitglieder verbessern den Aufbau des Druckers laufend. Aktuell setzt er sich
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Leistungselektronik Shield                              | `RepRap-Arduino-Mega-Pololu-Shield (RAMPS) 1.4 <https://reprap.org/wiki/RAMPS_1.4>`_                                    |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Display Platine                                         | `vermutlich: RepRapdiscount smart controller 2004 LCD (RED) <https://reprap.org/wiki/RepRapDiscount_Smart_Controller>`_ |
-+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Verstärker Schrittmotoren                               | `A4988 Datasheet <https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx>`_                         |
++---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| Display Platine                                         | `RepRapdiscount smart controller 2004 LCD (RED) <https://reprap.org/wiki/RepRapDiscount_Smart_Controller>`_             |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Schrittmotoren                                          | NEMA ?                                                                                                                  |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Zahnriemen                                              | vermutlich: 5mm breit, 2mm Zahnschritt                                                                                  |
+| Zahnriemen                                              | 5mm breit, 2mm Zahnschritt                                                                                              |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Antriebsstangen                                         | 8mm Stahlstangen                                                                                                        |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Pulley                                                  | vermutlich: 20 Zähne, 8mm Innendurchmesser, mit M3 Imbusfixierung                                                       |
+| Lager der Antriebsstangen                               | 8 mm (innen) / 22 mm (aussen) / 7 mmm (Dicke) Standardlager                                                             |
++---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| Pulley                                                  | 20 Zähne, 8mm Innendurchmesser, mit M3 Imbusfixierung                                                                   |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Heat Bed                                                |                                                                                                                         |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -241,6 +243,18 @@ M503 - Report Settings (Marlin 2.0.x)
 |                                |       +--------------+
 |                                |       | D114.00      |
 +--------------------------------+-------+--------------+
+
+The RepRap Shield
+~~~~~~~~~~~~~~~~
+
+Das **RepRap Arduino Mega Pololu Shield** dient als Plattform zur Anbindung
+aller weiteren Eletronik am System:
+
+1. Dem *Arduino Mega* als Microkontroller
+2. Den Schrittmotoren, ihren Reglern und Endsensoren
+3. Dem Heizkopf- und Bett, sowie ihren jeweiligen Messfühlern
+4. Dem LCD-Display und Drehtaster mit SD-Kartenleser
+5. etc.
 
 .. image:: 11_RAMPS_14/Rampswire14.svg
    :width: 500 px
