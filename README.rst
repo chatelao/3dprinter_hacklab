@@ -279,6 +279,14 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
    :width: 500 px
    :scale: 35 %
 
+.. image:: 10_ramps_14/1194px-Arduinomegapololushieldschematic.png
+   :width: 500 px
+   :scale: 35 %
+
+.. image:: 10_ramps_14/800px-Arduinomega1-4connectors.png
+   :width: 500 px
+   :scale: 35 %
+
 .. readme-next-page-do-not-remove
 
 Geplante Verbesserungen
