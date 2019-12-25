@@ -281,11 +281,9 @@ Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marl
 
 .. image:: 10_ramps_14/RAMPS-Shield-1.4-bovenkant-legenda.jpg
    :width: 500 px
-   :scale: 35 %
 
 .. image:: 10_ramps_14/800px-Arduinomega1-4connectors.png
    :width: 500 px
-   :scale: 35 %
 
 .. image:: 10_ramps_14/1194px-Arduinomegapololushieldschematic.png
    :width: 500 px
