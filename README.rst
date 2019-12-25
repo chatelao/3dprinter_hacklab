@@ -113,7 +113,7 @@ Der Drucker setzt sich aus den folgenden Bauteilen zusammen.
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+
 | Leistungselektronik Shield                              | `RepRap-Arduino-Mega-Pololu-Shield (RAMPS) 1.4 <https://reprap.org/wiki/RAMPS_1.4>`_            |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| Display Platine                                         | vermutlich: RepRapdiscount smart controller 2004 LCD (RED)                                      |
+| Display Platine                                         | `vermutlich: RepRapdiscount smart controller 2004 LCD (RED) <https://reprap.org/wiki/RepRapDiscount_Smart_Controller>`_ |                  |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+
 | Verstärker Schrittmotoren                               | `A4988 Datasheet <https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx>`_ |
 +---------------------------------------------------------+-------------------------------------------------------------------------------------------------+
