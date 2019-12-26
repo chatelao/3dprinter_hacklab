@@ -1,0 +1,1 @@
+html_logo: logo.jpeg

@@ -2,13 +2,13 @@
    :caption: Anleitung
    :maxdepth: 3
 
-   :Authors: - Olivier Chatelain
+   :Authors: - Olivier Châtelain-Gmür
              - Yves Wyder
              - Romeo Micev
              - Ursin Strauss
 
 
-.. include:: README.rst
+.. include:: ../README.rst
    :start-after: readme-header-marker-do-not-remove
    :end-before:  readme-next-page-do-not-remove
 
@@ -16,5 +16,5 @@
    :caption: Anhänge
    :maxdepth: 3
 
-.. include:: README.rst
+.. include:: ../README.rst
    :start-after: readme-next-page-do-not-remove
