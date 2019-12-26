@@ -244,21 +244,24 @@ M503 - Report Settings (Marlin 2.0.x)
 |                                |       | D114.00      |
 +--------------------------------+-------+--------------+
 
-The RepRap Shield
-~~~~~~~~~~~~~~~~
+Der RepRap Shield
+~~~~~~~~~~~~~~~~~
 
 Das **RepRap Arduino Mega Pololu Shield** dient als Plattform zur Anbindung
 aller weiteren Eletronik am System:
 
 1. Dem *Arduino Mega* als Microkontroller
 2. Den Schrittmotoren, ihren Reglern und Endsensoren
-3. Dem Heizkopf- und Bett, sowie ihren jeweiligen Messfühlern
+3. Dem Heizkopf und -bett, sowie ihren jeweiligen Messfühlern
 4. Dem LCD-Display und Drehtaster mit SD-Kartenleser
-5. etc.
+5. Den Lüftern für den Heizkopf und das Material
+6. etc.
+
+Die Stecker und Verkabelungen
+=============================
 
 .. image:: 11_RAMPS_14/Rampswire14.svg
    :width: 500 px
-   :scale: 35 %
 
 .. image:: 11_RAMPS_14/RAMPS-Shield-1.4-bovenkant-legenda.jpg
    :width: 500 px
@@ -266,9 +269,29 @@ aller weiteren Eletronik am System:
 .. image:: 11_RAMPS_14/800px-Arduinomega1-4connectors.png
    :width: 500 px
 
+Das elektronische Schema
+========================
+
 .. image:: 11_RAMPS_14/RAMPS1.4schematic.png
    :width: 500 px
-   :scale: 35 %
+
+Der LCD-Display mit Taster & SD-Kartenlesen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: 12_RepRapDiscount_SmartController/RepRapDiscount_SC-Front.jpg
+   :width: 500 px
+
+.. image:: 12_RepRapDiscount_SmartController/RepRapDiscount_SC-Back.jpg
+   :width: 500 px
+
+Das elektronische Schema
+========================
+
+.. image:: 12_RepRapDiscount_SmartController/RRD_Smart_LCD.jpg
+   :width: 500 px
+
+.. image:: 12_RepRapDiscount_SmartController/SC_Adapter.png
+   :width: 500 px
 
 .. readme-next-page-do-not-remove
 
