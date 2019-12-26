@@ -301,14 +301,7 @@ Geplante Verbesserungen
 Erweiterungen
 ~~~~~~~~~~~~~
 
-Filamentreiniger
-================
-
-Auf den Filamenten haftet meist ein wenig Staub. Eine Reinigung vor dem Drucken reduziert die
-Verunreinigung am Druckkopf.
-
-.. image:: 20_filament_cleaner/Universal_Filament_Filter_v020_preview_featured.jpg
-   :width: 300 px
+https://www.aliexpress.com/item/4000211772563.html
 
 Ersatz bestehender Teile
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -326,6 +319,20 @@ Blockierungen und damit Schrittverluste zu erkenne.
 - Anleitung zum Erhalten der LCD und SD-Karte (Chris Riley): https://www.youtube.com/watch?v=kMICfCa6bHk
 
 - Alterativ, aber unvollständig (Tom Sandladerer): https://www.youtube.com/watch?v=sPvTB3irCxQ&t=728s
+
+RAMPS Ersatz mit 32-bit Prozessor
+=================================
+
+Die Kombination RAMPS1.4 und Arduino Mega ist der de-facto standard für 3D-Drucker.
+Aktuell besteht nur ein geringer Bedarf diese Kombination abzulösen, da nur folgende
+Schwächen bestehen:
+
+#. Die Leistung der Heizausgänge ist auf 11A beschränkt (MKS v1.3: 20A)
+#. Die Unterstützung eines TFT-Touchpanels ist mir nicht bekannt
+#. Die Rechenleistung im 8-Bit Kontroller ist geriner als im 32-bit Modell
+
+Ein  Kandidat wäre das BigTreeTech SKR V1.3
+- https://www.aliexpress.com/item/32981807406.html
 
 Bessere Z-Axis Distanzeinhaltung
 ================================
@@ -358,9 +365,25 @@ Es kann den Abstand zum Druckbett laufen und an allen Stellen ausmessen.
 Verbesserte Halterung
 - https://www.thingiverse.com/thing:2332037
 
+Filamentreiniger
+================
 
-Bessere LCD-Anzeige
-===================
+Auf den Filamenten haftet meist ein wenig Staub. Eine Reinigung vor dem Drucken reduziert die
+Verunreinigung am Druckkopf.
+
+.. image:: 20_filament_cleaner/Universal_Filament_Filter_v020_preview_featured.jpg
+   :width: 300 px
+
+Besseres Anzeigemodul
+=====================
+
+Anzeige - BIGTREETECH TFT24 V1.1
+--------------------------------
+
+- https://www.aliexpress.com/item/33047390457.html
+
+Anzeige - LCD 12864
+-------------------
 
 Die LCD-Anzeige dient zur Steuerung des Druckers direkt am Gerät. Der SD-Card Leser
 ist ebenfalls direkt in das Modul eingebaut. Dazu muss die 
