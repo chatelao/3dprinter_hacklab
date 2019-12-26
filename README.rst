@@ -9,7 +9,9 @@ Unser 3D Drucker im Hacklab Bern
 Anleitung zum Drucken
 ~~~~~~~~~~~~~~~~~~~~~
 
-Der 3D Drucker im **Hacklab Bern**, basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_ open-source `Model <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
+Der 3D Drucker im `**Hacklab Bern** <https://www.meetup.com/de-DE/Bern-Silicon-Valley-HackLab-Tech-Group>`_,
+basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_ 
+open-source `Model <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
 Er wird abwechslungsweise von Mitgliedern genutzt und verbessert.
 
 Empfohlene PC/Mac Software
