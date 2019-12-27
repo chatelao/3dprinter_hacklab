@@ -9,10 +9,12 @@ Unser 3D Drucker im Hacklab Bern
 Anleitung zum Drucken
 ~~~~~~~~~~~~~~~~~~~~~
 
-Der 3D Drucker im ` **Hacklab Bern** <https://www.meetup.com/de-DE/Bern-Silicon-Valley-HackLab-Tech-Group>`_,
+Der 3D Drucker im **Hacklab Bern** (https://www.meetup.com/de-DE/Bern-Silicon-Valley-HackLab-Tech-Group),
 basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_ 
 open-source `Model <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
 Er wird abwechslungsweise von Mitgliedern genutzt und verbessert.
+
+<https://www.meetup.com/de-DE/Bern-Silicon-Valley-HackLab-Tech-Group>
 
 Slicer Software für PC/Mac
 ==========================
