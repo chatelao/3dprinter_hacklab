@@ -14,10 +14,12 @@ basiert auf dem `CL-260 <https://www.thingiverse.com/groups/cl-260/things>`_
 open-source `Model <https://www.thingiverse.com/minicooper/collections/cl-260>`_.
 Er wird abwechslungsweise von Mitgliedern genutzt und verbessert.
 
-Empfohlene PC/Mac Software
+Slicer Software für PC/Mac
 ==========================
 
-Die folgenden Software hat sich für den PC bewährt:
+Für das Erstellen der Druckbefehle aus den (.stl) 3D-Modellen wird zwingend ein *Slicer* Programm
+benötigt. Der grosse Klassiker ist *Cura*, die Alternativen wie *Prusa-Slicer* funktionieren sehr
+ähnlich:
 
 +-------------------------------------------------------+---------------+-------------------+
 |                       Software                        |     Zweck     | Chocolately Paket |
@@ -26,21 +28,9 @@ Die folgenden Software hat sich für den PC bewährt:
 +-------------------------------------------------------+---------------+-------------------+
 | `Prusa Slicer <https://www.prusa3d.com/prusaslicer>`_ | Slicer        | prusaslicer       |
 +-------------------------------------------------------+---------------+-------------------+
-| `Pronterface <https://www.pronterface.com/>`_         | Fernsteuerung | printrun          |
-+-------------------------------------------------------+---------------+-------------------+
 
-Empfohlene Filamente
-====================
-
-Filamente können hier bezogen werden:
-
-- Im FabLab Bern: https://www.objektweberei.ch
-- Online u.a. bei 3D-Jake: https://www.3djake.ch/de-CH/filament/pla-filament
-
-Empfohlene Einstellungen
-========================
-
-Die folgenden Einstellungen haben sich für den Drucker bewährt.
+Der Slicer muss gewisse Details des Druckers kennen, damit er ihn gut ansteuern kann. Anbei 
+einige bewährte, wesentliche Einstellungen:
 
 +--------------------+----------------------------------+
 |    Einstellung     |         Empfohlener Wert         |
@@ -49,12 +39,45 @@ Die folgenden Einstellungen haben sich für den Drucker bewährt.
 +--------------------+----------------------------------+
 | Druckauflösung     | 0.15mm                           |
 +--------------------+----------------------------------+
-| PLA Temperatur     | 210°C                            |
+| Retraction         | **5mm**                          |
 +--------------------+----------------------------------+
-| Hot bed Temperatur | 55°C                             |
+| PLA Druckkopf      | 210°C (erste Schicht) / 200°C    |
 +--------------------+----------------------------------+
-| Retraction         | 5mm                              |
+| PLA Heizbett       | 55°C (erste Schicht) / 50°C      |
 +--------------------+----------------------------------+
+
+Filamente
+=========
+
+Kein Druck ohne Filamente, diese können hier bezogen werden:
+
+- Im FabLab Bern: https://www.objektweberei.ch
+- Online u.a. bei 3D-Jake: https://www.3djake.ch/de-CH/filament/pla-filament
+
+Empfohlene Einstellungen
+========================
+
+
+Anleitung zum Warten
+~~~~~~~~~~~~~~~~~~~~
+
+Wartungssoftware
+================
+
+Zur Wartung des Druckers hilft *Pronterface*, es stellt die technischeren Schnittstellen, wie
+das serielle Terminal zur direkten Kommunikation mit dem Drucker und bequeme Kontrolleknöpfe
+zum Bewegen der Achsen zur Verfügung.
+
+.. image:: 55_pronterface/pronterface_gui.jpg
+   :width: 300 px
+
++-------------------------------------------------------+---------------+-------------------+
+|                       Software                        |     Zweck     | Chocolately Paket |
++=======================================================+===============+===================+
+| `Pronterface <https://www.pronterface.com/>`_         | Fernsteuerung | printrun          |
++-------------------------------------------------------+---------------+-------------------+
+
+
 
 Fehlersuche
 ===========
@@ -147,9 +170,6 @@ Marlin Konfiguration
 ~~~~~~~~~~~~~~~~~~~~
 
 Mit der Pronterface_ Software kann der Drucker über `gCode Befehle <http://marlinfw.org/docs/gcode/M115.html>`_ oder das GUI mit der seriellen Schnittstelle ferngesteuert und untersucht werden:
-
-.. image:: 55_pronterface/pronterface_gui.jpg
-   :width: 300 px
 
 M115 - Firmware Informations
 ============================
