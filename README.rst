@@ -73,6 +73,22 @@ zum Bewegen der Achsen zur Verfügung.
 | `Pronterface <https://www.pronterface.com/>`_         | Fernsteuerung | printrun          |
 +-------------------------------------------------------+---------------+-------------------+
 
+Hardware & Werkzeug
+===================
+
+- Akkupunkturnadeln
+- 2.5mm Imbusschlüssel
+- 7mm Innen Sechskantschlüssel
+- Messingbürste
+- Flachzange
+- Seitenschneider
+- 1.3mm Imbusschlüssel
+- M3 Schrauben und Muttern
+- 5er Gabelschlüssel
+- Isopropanol
+- Haushaltspapier
+- Schieblehre
+- Kaptontape
 
 
 Fehlersuche
