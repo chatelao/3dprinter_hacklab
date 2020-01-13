@@ -109,6 +109,9 @@ Düse montieren
 Bei der Montage der Düse ist sicherzustellen, dass die Düse kalt nur 0.7mm vor dem Limit angezogen ist.
 In warmem Zustand kann die Düse zusätzlich nach ajustiert werden.
 
+.. image:: 07_Hotend_Schematics/V6-175-500x500.png
+   :width: 300 px
+
 - https://youtu.be/OzRAVkXjw3I
 
 Kalibrationsmuster
