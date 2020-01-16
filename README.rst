@@ -364,6 +364,9 @@ erkennen oder korrigieren. Die Motoren sind bei der Ansteuerung auch relativ lau
 Die Alternative dazu sind die TMC2130 der Firma Trinamic. Sie erlauben es, 
 Blockierungen und damit Schrittverluste zu erkenne.
 
+.. image:: 16_TMC2130_Step_Drivers/TMC2130-5.jpg
+   :width: 200 px
+
 - Anleitung zum Erhalten der LCD und SD-Karte (Chris Riley): https://www.youtube.com/watch?v=kMICfCa6bHk
 
 .. image:: 16_TMC2130_Step_Drivers/ramps_TMC2130_after.png
