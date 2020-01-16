@@ -46,6 +46,14 @@ einige bewährte, wesentliche Einstellungen:
 | PLA Heizbett       | 55°C (erste Schicht) / 50°C      |
 +--------------------+----------------------------------+
 
+Software zur Fernsteuerung
+==========================
+
+Die Steuerung und Statuskontrolle des Druckers geht viel einfacher mit `OctoPrint <https://octoprint.org/download/>`_  auf einem RaspberryPi. Damit lassen sich Durckdateien bequem hochladen und der Status jederzeit abfragen. Noch mehr Komfort bieten Plug-Ins wie:
+
+- `Telegram Integration <https://github.com/fabianonline/OctoPrint-Telegram>`_
+- `Fortschrittsanzeige auf dem Drucker <https://github.com/OllisGit/OctoPrint-DisplayLayerProgress>`_
+
 Filamente
 =========
 
