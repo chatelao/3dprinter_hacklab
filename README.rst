@@ -367,7 +367,13 @@ Blockierungen und damit Schrittverluste zu erkenne.
 .. image:: 16_TMC2130_Step_Drivers/TMC2130-5.jpg
    :width: 200 px
 
-- Anleitung zum Erhalten der LCD und SD-Karte (Chris Riley): https://www.youtube.com/watch?v=kMICfCa6bHk
+Die Anleitung von Chris Riley zum Erhalten der LCD und SD-Karte: https://www.youtube.com/watch?v=kMICfCa6bHk
+
+1. Schwarz: Serial data in (SDI/TMC_SW_MOSI) auf D44
+2. Gelb: Serial Clock (SCK/TMC_SW_SCK) auf D40
+3. Rot: Serial data out (SDO/TMC_SW_MISO) auf D42
+4. Violett: X_CS_PIN auf D64
+5. Blau: Y_CS_PIN auf D66
 
 .. image:: 16_TMC2130_Step_Drivers/ramps_TMC2130_after.png
    :width: 500 px
