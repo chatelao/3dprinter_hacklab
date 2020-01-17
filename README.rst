@@ -46,6 +46,14 @@ einige bewährte, wesentliche Einstellungen:
 | PLA Heizbett       | 55°C (erste Schicht) / 50°C      |
 +--------------------+----------------------------------+
 
+Software zur Fernsteuerung
+==========================
+
+Die Steuerung und Statuskontrolle des Druckers geht viel einfacher mit `OctoPrint <https://octoprint.org/download/>`_  auf einem RaspberryPi. Damit lassen sich Durckdateien bequem hochladen und der Status jederzeit abfragen. Noch mehr Komfort bieten Plug-Ins wie:
+
+- `Telegram Integration <https://github.com/fabianonline/OctoPrint-Telegram>`_
+- `Fortschrittsanzeige auf dem Drucker <https://github.com/OllisGit/OctoPrint-DisplayLayerProgress>`_
+
 Filamente
 =========
 
@@ -367,25 +375,6 @@ Schwächen bestehen:
 Ein  Kandidat wäre das BigTreeTech SKR V1.3
 - https://www.aliexpress.com/item/32981807406.html
 
-Bessere Z-Axis Distanzeinhaltung
-================================
-
-Nur eine präzises Startdistanz zum Heizbett erlaubt präzise erste Schichten.
-
-Verbesserte Stopp Schalter Führung
-----------------------------------
-
-Der End-Stops soll den Schalter wiederholbar zum gleichen Zeitpunkt auslösen. Der Würfel erlaubt
-grössere Toleranzen zum Treffen des Schalters.
-
-Quelle:
-
-- https://www.thingiverse.com/thing:2851658
-- STL: `z_axis_sensor_print <https://github.com/chatelao/3dprinter_hacklab/tree/master/z_axis_sensor_print>`_
-
-.. image:: 03_z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
-   :width: 500 px
-
 Induktive Abstandsensoren am Druckkopf
 --------------------------------------
 
@@ -495,3 +484,23 @@ also fehlerfrei ausgelesen und ist nur invertiert:
 
 Zur Korrektur muss die Konfiguration angepasst werden. Die xxx_MIN_ENDSTOP_INVERTING Werte sind
 normalerweise "false" und müssen auf "true" umgestellt werden:
+
+Bessere Z-Axis Distanzeinhaltung
+================================
+
+Nur eine präzises Startdistanz zum Heizbett erlaubt präzise erste Schichten.
+
+Verbesserte Stopp Schalter Führung
+----------------------------------
+
+Der End-Stops soll den Schalter wiederholbar zum gleichen Zeitpunkt auslösen. Der Würfel erlaubt
+grössere Toleranzen zum Treffen des Schalters.
+
+Quelle:
+
+- https://www.thingiverse.com/thing:2851658
+- STL: `z_axis_sensor_print <https://github.com/chatelao/3dprinter_hacklab/tree/master/z_axis_sensor_print>`_
+
+.. image:: 03_z_axis_sensor_print/5cc3017be026a4b2a4c0659578d3ea0d_preview_featured.jpg
+   :width: 500 px
+
