@@ -433,7 +433,7 @@ Die aktuellen Treiberchips der Schrittmotoren sind klassische Pololu A4988.
 Diese Trieber steuern den Drucker korrekt, aber können keine Schrittverluste
 erkennen oder korrigieren. Die Motoren sind bei der Ansteuerung auch relativ laut.
 
-.. image:: 16_TMC2130_Step_Drivers/ramps_TMC2130_after.png
+.. image:: 16_TMC2130_Step_Drivers/TMC2130_Umbau.jpg
    :width: 500 px
 
 Die Alternative dazu sind die TMC2130 der Firma Trinamic. Sie erlauben es, 
