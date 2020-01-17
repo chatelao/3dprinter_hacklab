@@ -353,24 +353,6 @@ https://www.aliexpress.com/item/4000211772563.html
 Ersatz bestehender Teile
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Neue TMC2130 Treiber für Schrittmotoren
-=======================================
-
-Die aktuellen Treiberchips der Schrittmotoren sind klassische Pololu A4988.
-Diese Trieber steuern den Drucker korrekt, aber können keine Schrittverluste
-erkennen oder korrigieren. Die Motoren sind bei der Ansteuerung auch relativ laut.
-
-
-Die Alternative dazu sind die TMC2130 der Firma Trinamic. Sie erlauben es, 
-Blockierungen und damit Schrittverluste zu erkenne.
-
-- Anleitung zum Erhalten der LCD und SD-Karte (Chris Riley): https://www.youtube.com/watch?v=kMICfCa6bHk
-
-.. image:: 16_TMC2130_Step_Drivers/ramps_TMC2130_after.png
-   :width: 500 px
-
-- Alterativ, aber unvollständig (Tom Sandladerer): https://www.youtube.com/watch?v=sPvTB3irCxQ&t=728s
-
 RAMPS Ersatz mit 32-bit Prozessor
 =================================
 
@@ -454,6 +436,26 @@ oder hier im `Verzeichnis <https://github.com/chatelao/3dprinter_hacklab/blob/ma
 
 Durchgeführte Verbesserungen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Neue TMC2130 Treiber für Schrittmotoren
+=======================================
+
+Die aktuellen Treiberchips der Schrittmotoren sind klassische Pololu A4988.
+Diese Trieber steuern den Drucker korrekt, aber können keine Schrittverluste
+erkennen oder korrigieren. Die Motoren sind bei der Ansteuerung auch relativ laut.
+
+.. image:: 16_TMC2130_Step_Drivers/ramps_TMC2130_after.png
+   :width: 500 px
+
+Die Alternative dazu sind die TMC2130 der Firma Trinamic. Sie erlauben es, 
+Blockierungen und damit Schrittverluste zu erkenne.
+
+- Anleitung zum Erhalten der LCD und SD-Karte (Chris Riley): https://www.youtube.com/watch?v=kMICfCa6bHk
+
+.. image:: 16_TMC2130_Step_Drivers/ramps_TMC2130_after.png
+   :width: 500 px
+
+- Alterativ, aber unvollständig (Tom Sandladerer): https://www.youtube.com/watch?v=sPvTB3irCxQ&t=728s
 
 Neue Firmware
 =============
