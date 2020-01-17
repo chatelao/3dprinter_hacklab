@@ -358,8 +358,11 @@ Erweiterungen
 
 https://www.aliexpress.com/item/4000211772563.html
 
-Ersatz bestehender Teile
-~~~~~~~~~~~~~~~~~~~~~~~~
+Filament runout sensor
+======================
+
+- Sensor casing: https://www.thingiverse.com/thing:1698397
+- https://www.youtube.com/watch?v=gwHpXaj_6xE
 
 RAMPS Ersatz mit 32-bit Prozessor
 =================================
