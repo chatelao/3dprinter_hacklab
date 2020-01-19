@@ -65,6 +65,16 @@ Kein Druck ohne Filamente, diese können hier bezogen werden:
 Anleitung zum Warten
 ~~~~~~~~~~~~~~~~~~~~
 
+Bed leveling
+============
+
+- Autohome
+- Z-Axes senken
+- Differenz an am Z-Stopp nachschrauen
+- Alle Vier Ecken nachprüfen
+
+- **Cold pull** das Hotend auf 120°C anwärmen und laufend ziehen, bis das Verstopfte herauskommen.
+
 Wartungssoftware
 ================
 
