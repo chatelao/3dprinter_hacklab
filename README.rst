@@ -73,6 +73,11 @@ Bed leveling
 - Differenz an am Z-Stopp nachschrauen
 - Alle Vier Ecken nachprüfen
 
+
+Nozzle reinigen
+===============
+
+- https://www.youtube.com/watch?v=g8uvh6kvr54
 - **Cold pull** das Hotend auf 120°C anwärmen und laufend ziehen, bis das Verstopfte herauskommen.
 
 Wartungssoftware
